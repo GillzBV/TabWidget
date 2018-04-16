@@ -9,7 +9,7 @@ More detailed information can be shown at the tab captions of the tabcontainer.
 ### Features and limitations
 - Population of tab captions through attributes.
 - 1 widget per tab, multiple tabs = multiple widgets
-- Captions will no refresh automatically, the page or tabcontainer need to be refreshed in order to get updated captions.
+- Captions will not refresh automatically, the page or tabcontainer need to be refreshed in order to get updated captions.
 
 ### Installation
 - Place the Widget in a dataview which contains the Attribute to show
