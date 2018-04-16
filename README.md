@@ -1,7 +1,6 @@
 ### Description
 TabWidget is a Mendix widget that changes the caption of the default mendix TabContainer.
 The new caption will be populated via a user selectable string attribute.
-This widget can actually change the innerHTML of any class given in the widget
 
 ### Typical usage scenario
 More detailed information can be shown at the tab captions of the tabcontainer.
