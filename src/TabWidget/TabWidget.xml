@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="TabWidget.widget.TabWidget" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>TabWidget</name>
+    <description>This widget will change the tab caption of the default tab container. The tab caption can be populated with any string attribute.</description>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM8SURBVHhe7dy9ixNBGAbwoIUggmKhYmMrgp0gNgpHLvuZOyxSWdgI/gWC2sTaxtJOsLG3FwvBj0KQE9TCylYExTvdTdBb3/ecF/MxWTeb3Zl3Ph54CEcyO5Pf7dwmR0jHx8fHp+UU3e7hUZBey8PkEfRFHqavVXQUJE/g9uZur3dULMW8jIP0wihMPo3CtNBV+KV9yaL+mliSORnH8UU4A3ZkT0p1cR15Lz0tlsY/nPAm+lgsj3eY4uFZOC4uDQ6JZfIMVzwq623MHW+vUXRWLJdXjMDDcgQ0Bg/LDVA1Xh6kn+H2Kcz5rNa8nABV4uVB8h1ekF8tBoP9YvpOkaYH4d3GHbjvl2yMtFwAleLByw+Y77yYei7wbue6bJy0HACVb9swuS+mXhjY2q9kY+eqG1A1HrbK+1gAvCEbO1edgDrw9lrhScPfxyvSsbPVBagND5pHaSSWsTBwIbktGztXHYA68bCwPR+KpUhTDIf7AHBLNnauqgF142HxZUrZWQj335KNk1YlIAc8KpyFOV4oJv+bshPHJ/AKLXv8wqoC5IQ3WVhTBpBv4aLxAc6837LHlFYFIFe8Rto2oNV42DYBrcfDtgXoBB62DUBn8LBNAzqFh20S0Dk8bFOATuJhmwB0Fg+7KqDTeNhVAJ3Hw9YF9Hh/W+uTCR7vX/GzioKlWjzeZJOPgqVaPN50wWIoaP4fjzfdPEjf7IbhAcFTHo830yB9v73WPy54yuPxZroM3o/uxsk8SL5KD+Ril8HDwFXmrvRALnZZPAxs3efSg7nWOngY2L4vpQd0qXXxMDD4nvSgrnQVPMzPOD4F2/ib9OC2d1U8StbrrwNiJp3E1jaFR8mCJHAGsWk8ihOIbeFRrEZsG49iJaIqPIpViKrxKFYg6sKjGI2oG49iJCIXPIpRiNzwKEYgcsWjsEbkjkdhiWgKHoUVoml4FBaIpuJRtCKajkfRgmgLHkUpom14FCWItuJRWkW0HY/SCqIreJRGEV3DozSC6CoeZSVE1/EotRA93nSWQvR48lRC9HjlKUUMkncer0LGUXQOvxua4BAUfn5QbG4eEQ/xqZLt9cvH8nDjDPsvefXx8bEnnc4fmKp6STUCZSEAAAAASUVORK5CYII=</icon>
+    
+
+    <properties>
+        <property key="tabname" type="string" required="true" defaultValue="">
+            <caption>TabName</caption>
+            <category>Appearance</category>
+            <description>Name of the Tab Name property</description>
+        </property>
+
+        <property key="newcaption" type="attribute">
+            <caption>New Name Attribute</caption>
+            <category>Appearance</category>
+            <description>New caption to show</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+
+    </properties>
+</widget>

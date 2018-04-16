@@ -1,0 +1,13 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "Gillz 2018",
+      "license": "none",
+      "author": "J. van Geuns",
+      "boilerplate": "empty",
+      "widgetoptions": [
+        "templates"
+      ]
+    }
+  }
+}
